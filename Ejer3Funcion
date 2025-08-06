@@ -1,0 +1,13 @@
+import libreriaChay
+
+def suma(a,b):
+    return a+b
+
+if __name__ == "__main__":
+    print("suma: ",suma(5,6))
+    print("concatena: ",suma('5','6'))
+
+    print("resta: ",libreriaChay.resta(10,3))
+    print("multiplica: ",libreriaChay.mult(10,3))
+    print("divide: ",libreriaChay.divi(10,3))
+    
